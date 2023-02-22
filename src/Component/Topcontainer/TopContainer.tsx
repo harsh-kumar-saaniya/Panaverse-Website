@@ -5,8 +5,9 @@ import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react'
 
 function TopContainer() {
     return (
-        <Box backgroundImage={'/Images/background.jpg'} backgroundSize='cover' py={20} >
-            <HStack>
+        <Box>
+        {/* <Box backgroundImage={'/Images/background.jpg'} backgroundSize='cover' py={20} > */}
+            <HStack bgColor={'blue.500'}>
                 <Box w={'50%'} color={'white'} pl='44'>
                     <Heading fontSize={60}>Build Your next idea even fast</Heading>
                     <Text lineHeight={'8'}>One year panaverse dao Earn as you learn Program. Consolidating web 3.0, Metaverse Artificial Intelligence (AI), Cloud Edge, and Ambient Computing/Iot Technologies</Text>
