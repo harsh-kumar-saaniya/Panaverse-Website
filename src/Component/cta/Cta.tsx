@@ -9,7 +9,7 @@ function Cta() {
                 <HStack>
                     <Box flex={3} >
                         <Heading>Try Free Component</Heading>
-                        <Text fontSize={'20px'}>You don't have to buy a pig in poke - You can experiance our free community components before making a purchase decision</Text>
+                        <Text fontSize={'20px'}>You dont have to buy a pig in poke - You can experiance our free community components before making a purchase decision</Text>
                     </Box>
                     <Box flex={1} alignSelf={'flex-start'}>
                         <Button colorScheme={'blue'} float={'right'}>View Component</Button>
